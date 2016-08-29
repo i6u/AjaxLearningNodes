@@ -21,4 +21,13 @@
     * jQuery.ajaxSetup
     * 全局事件处理:ajaxComplete()、ajaxError()、ajaxSend()、ajaxStart()、ajaxStop()、ajaxSuccess()
     * 辅助函数serialize、serializeArray、jQuery.param
+3. fastJSON,jackson,xStream使用
+    * [Json解析教程](http://zyjustin9.iteye.com/blog/2020533)
+    * [fastJson](http://www.cnblogs.com/zhenmingliu/archive/2011/12/29/2305775.html)
+    * fastJSON中javaBean的序列化/反序列化,集合、泛型、组合类型的反序列化,SerializerFeature常用配置,日期的格式化
+    * jackson的日常。。。
+    * xStream中XML的操作,JavaBean<-->XML,xStream中对节点的修改处理
+4. 扩展
+    * 回顾java IO操作(File<-->String)
+    * JavaScript中节点的操作
     
