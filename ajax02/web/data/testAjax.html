@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script type="text/javascript">
+        (function () {
+            var data = new Object();
+            function init() {
+                var xhr = new XMLHttpRequest();
+                xhr.open('get', 'province_city.xml', false);
+                xhr.send();
+//                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        data = xhr.responseXML;
+                    }
+//                };
+            }
+            init();
+
+            function province() {
+                
+            }
+            
+            function chance(node,str) {
+                node.addEventListener('change')
+            }
+
+
+            var t = document.getElementById('body');
+            t.onclick = function () {
+                alert('onclick');
+            }
+        })();
+    </script>
+</head>
+<body>
+<select id="province">
+    <option>---请选择省份---</option>
+</select>
+<select id="city">
+    <option>---请选择地市---</option>
+</select>
+<select id="county">
+    <option>---请选择区县---</option>
+</select>
+</body>
+</html>
