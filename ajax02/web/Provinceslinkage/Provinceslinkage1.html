@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script type="text/javascript">
+        (function () {
+
+            /**
+             *
+             * 省市联动
+             * 老师例子
+             *
+             * */
+            window.onload = init;
+
+            var areaDoc;
+            var sProvince;
+            var sCity;
+            var sCounty;
+
+            function init() {
+                sProvince = document.getElementById("province");
+                sCity = document.getElementById("city");
+                sCounty = document.getElementById("county");
+                initProvince();
+                sProvince.addEventListener('change',getCity);
+                sCity.addEventListener('change',getCountry);
+            }
+
+            function getCountry() {
+                var cv = this.value;
+                var cn = getParentNode('city', cv);
+                if (cn) {
+                    var cns = cn.getElementsByTagName('county');
+                    insertOption(sCounty, cns);
+                }
+
+            }
+            function getCity() {
+                var cv = this.value;
+                var cn = getParentNode('province', cv);
+                if (cn) {
+                    var cns = cn.getElementsByTagName('city');
+                    insertOption(sCity, cns);
+                }
+            }
+
+            function getParentNode(name, cv) {
+                var pns = areaDoc.getElementsByTagName(name);
+                for (var i = 0; i < pns.length; i++) {
+                    if (pns[i].getAttribute('code') == cv) {
+                        return pns[i];
+                    }
+                }
+                return null;
+            }
+
+
+
+            /**
+             * 创建select内容
+             * em:select节点
+             * xmlNodes:xml数据
+             * */
+            function insertOption(em, xmlNodes) {
+                em.options.length = 1;
+                for (var i = 0; i < xmlNodes.length; i++) {
+                    var node = document.createElement('option');
+                    node.value = xmlNodes[i].getAttribute('code');
+                    node.text = xmlNodes[i].getAttribute('value');
+                    em.add(node);
+                }
+            }
+
+            function initProvince() {
+                var xhr = getXHR();
+                xhr.open('get', '../data/province_city.xml', true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        areaDoc = xhr.responseXML;
+                        var pns = areaDoc.getElementsByTagName("province");
+                        /** no.1*/
+//                    var ns = '';
+//                    for (var i = 0; i < pns.length; i++) {
+//                        ns+="<option value='"+pns[i].getAttribute('code').substr(0,4)+"'>"+pns[i].getAttribute('value')+"</option>";
+//                    }
+//                    sProvince.innerHTML +=ns;
+                        /** no.2*/
+                        insertOption(sProvince, pns);
+                    }
+                };
+                xhr.send();
+            }
+
+            function getXHR() {
+                var httpRequest;
+                // Old compatibility code, no longer needed.
+                if (window.XMLHttpRequest) { // Mozilla, Safari, IE7+ ...
+                    httpRequest = new XMLHttpRequest();
+                } else if (window.ActiveXObject) { // IE 6 and older
+                    httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                return httpRequest;
+            }
+        })();
+    </script>
+</head>
+<body>
+<select id="province">
+    <option>---请选择省份---</option>
+</select>
+<select id="city">
+    <option>---请选择地市---</option>
+</select>
+<select id="county">
+    <option>---请选择区县---</option>
+</select>
+</body>
+</html>

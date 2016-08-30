@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script type="text/javascript">
+        (function () {
+
+            /**
+             *
+             * 省市联动
+             * 基于xPath
+             * */
+
+            var areaDoc = null;
+            window.onload = init;
+
+            function init() {
+                initDoc();
+                var pn = document.getElementById("province");
+                pn.onchange = function () {
+                    var path = "/country/province[@code='"+ this.value+"']/city";
+                    setAddress(path, 'city');
+                };
+                var cn = document.getElementById("city");
+                cn.onchange = function () {
+//                    var path = "/country/province/city[@code='"+ this.value+"']/county";
+                    var path ="//city[@code='"+ this.value +"']/county"
+                    setAddress(path, 'county');
+                };
+            }
+
+
+            function initProvince() {
+                var path = "/country/province";
+                setAddress(path, 'province');
+            }
+
+            function setAddress(xPath, nodeId) {
+                var nodes = getNodeByXPath(areaDoc,xPath);
+                insertOption(nodeId, nodes);
+            }
+
+
+            /**
+             * 解决可能出现的浏览器兼容问题
+             * */
+            function getNodeByXPath(xmlFile, path) {
+                if (XPathResult) {
+                    var ns = new Array();
+                    var xr = xmlFile.evaluate(path, xmlFile, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
+                    //遍历
+                    var node = null;
+                    while ((node = xr.iterateNext())) {
+                        ns.push(node);
+                    }
+                    return ns;
+                } else if (window.ActiveXObject) {
+                    return xmlFile.selectNodes(path);
+                } else {
+                    alert('浏览器版本过于低,请换个浏览器!');
+                }
+            }
+
+            /**
+             * 创建select内容
+             * em:select节点
+             * xmlNodes:xml数据
+             * */
+            function insertOption(nodeId, xmlNodes) {
+                var em = document.getElementById(nodeId);
+                em.options.length = 1;
+                for (var i = 0; i < xmlNodes.length; i++) {
+                    var node = document.createElement('option');
+                    node.value = xmlNodes[i].getAttribute('code');
+                    node.text = xmlNodes[i].getAttribute('value');
+                    em.add(node);
+                }
+            }
+
+            function initDoc() {
+                var xhr = getXHR();
+                xhr.open('get', '../data/province_city.xml', true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        areaDoc = xhr.responseXML;
+                        initProvince();
+                    }
+                };
+                xhr.send();
+            }
+
+            function getXHR() {
+                var httpRequest;
+                // Old compatibility code, no longer needed.
+                if (window.XMLHttpRequest) { // Mozilla, Safari, IE7+ ...
+                    httpRequest = new XMLHttpRequest();
+                } else if (window.ActiveXObject) { // IE 6 and older
+                    httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                return httpRequest;
+            }
+        })();
+    </script>
+</head>
+<body>
+<select id="province">
+    <option>---请选择省份---</option>
+</select>
+<select id="city">
+    <option>---请选择地市---</option>
+</select>
+<select id="county">
+    <option>---请选择区县---</option>
+</select>
+</body>
+</html>
