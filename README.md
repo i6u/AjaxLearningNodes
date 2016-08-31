@@ -12,8 +12,8 @@
     - 响应数据的格式,设置响应数据注意的问题
     - Http header的设置;Http头是什么,http头的作用
     - 扩展:深入了解XMLHttpRequest对象;get、post区别;onreadystatechange深究
-2. JQuery中的Ajax
-    * load
+2. JQuery中的Ajax [jQuery中$.get、$.post、$.getJSON、$.ajax 方法详解](http://blog.csdn.net/huileiforever/article/details/12163385)
+    * load 
     * get
     * post
     * getJSON、getScript

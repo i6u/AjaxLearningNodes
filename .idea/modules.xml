@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ajax01/ajax01.iml" filepath="$PROJECT_DIR$/ajax01/ajax01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ajax02/ajax02.iml" filepath="$PROJECT_DIR$/ajax02/ajax02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ajax03JQuery/ajax03JQuery.iml" filepath="$PROJECT_DIR$/ajax03JQuery/ajax03JQuery.iml" />
     </modules>
   </component>
 </project>

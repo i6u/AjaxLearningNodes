@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country code="86" value="中国">
+	<province code="220000" value="吉林省">
+		<city code="220100" value="长春市">
+			<county code="220101" value="市辖区"/>
+			<county code="220102" value="南关区"/>
+			<county code="220103" value="宽城区"/>
+			<county code="220104" value="朝阳区"/>
+			<county code="220105" value="二道区"/>
+			<county code="220106" value="绿园区"/>
+			<county code="220112" value="双阳区"/>
+			<county code="220122" value="农安县"/>
+			<county code="220181" value="九台市"/>
+			<county code="220182" value="榆树市"/>
+			<county code="220183" value="德惠市"/>
+		</city>
+		<city code="220200" value="吉林市">
+			<county code="220201" value="市辖区"/>
+			<county code="220202" value="昌邑区"/>
+			<county code="220203" value="龙潭区"/>
+			<county code="220204" value="船营区"/>
+			<county code="220211" value="丰满区"/>
+			<county code="220221" value="永吉县"/>
+			<county code="220281" value="蛟河市"/>
+			<county code="220282" value="桦甸市"/>
+			<county code="220283" value="舒兰市"/>
+			<county code="220284" value="磐石市"/>
+		</city>
+		<city code="220300" value="四平市">
+			<county code="220301" value="市辖区"/>
+			<county code="220302" value="铁西区"/>
+			<county code="220303" value="铁东区"/>
+			<county code="220322" value="梨树县"/>
+			<county code="220323" value="伊通满族自治县"/>
+			<county code="220381" value="公主岭市"/>
+			<county code="220382" value="双辽市"/>
+		</city>
+		<city code="220400" value="辽源市">
+			<county code="220401" value="市辖区"/>
+			<county code="220402" value="龙山区"/>
+			<county code="220403" value="西安区"/>
+			<county code="220421" value="东丰县"/>
+			<county code="220422" value="东辽县"/>
+		</city>
+		<city code="220500" value="通化市">
+			<county code="220501" value="市辖区"/>
+			<county code="220502" value="东昌区"/>
+			<county code="220503" value="二道江区"/>
+			<county code="220521" value="通化县"/>
+			<county code="220523" value="辉南县"/>
+			<county code="220524" value="柳河县"/>
+			<county code="220581" value="梅河口市"/>
+			<county code="220582" value="集安市"/>
+		</city>
+		<city code="220600" value="白山市">
+			<county code="220601" value="市辖区"/>
+			<county code="220602" value="八道江区"/>
+			<county code="220604" value="江源区"/>
+			<county code="220621" value="抚松县"/>
+			<county code="220622" value="靖宇县"/>
+			<county code="220623" value="长白朝鲜族自治县"/>
+			<county code="220681" value="临江市"/>
+		</city>
+		<city code="220700" value="松原市">
+			<county code="220701" value="市辖区"/>
+			<county code="220702" value="宁江区"/>
+			<county code="220721" value="前郭尔罗斯蒙古族自治县"/>
+			<county code="220722" value="长岭县"/>
+			<county code="220723" value="乾安县"/>
+			<county code="220724" value="扶余县"/>
+		</city>
+		<city code="220800" value="白城市">
+			<county code="220801" value="市辖区"/>
+			<county code="220802" value="洮北区"/>
+			<county code="220821" value="镇赉县"/>
+			<county code="220822" value="通榆县"/>
+			<county code="220881" value="洮南市"/>
+			<county code="220882" value="大安市"/>
+		</city>
+		<city code="222400" value="延边朝鲜族自治州">
+			<county code="222401" value="延吉市"/>
+			<county code="222402" value="图们市"/>
+			<county code="222403" value="敦化市"/>
+			<county code="222404" value="珲春市"/>
+			<county code="222405" value="龙井市"/>
+			<county code="222406" value="和龙市"/>
+			<county code="222424" value="汪清县"/>
+			<county code="222426" value="安图县"/>
+		</city>
+	</province>
+	<province code="230000" value="黑龙江省">
+		<city code="230100" value="哈尔滨市">
+			<county code="230101" value="市辖区"/>
+			<county code="230102" value="道里区"/>
+			<county code="230103" value="南岗区"/>
+			<county code="230104" value="道外区"/>
+			<county code="230108" value="平房区"/>
+			<county code="230109" value="松北区"/>
+			<county code="230110" value="香坊区"/>
+			<county code="230111" value="呼兰区"/>
+			<county code="230112" value="阿城区"/>
+			<county code="230123" value="依兰县"/>
+			<county code="230124" value="方正县"/>
+			<county code="230125" value="宾县"/>
+			<county code="230126" value="巴彦县"/>
+			<county code="230127" value="木兰县"/>
+			<county code="230128" value="通河县"/>
+			<county code="230129" value="延寿县"/>
+			<county code="230182" value="双城市"/>
+			<county code="230183" value="尚志市"/>
+			<county code="230184" value="五常市"/>
+		</city>
+		<city code="230200" value="齐齐哈尔市">
+			<county code="230201" value="市辖区"/>
+			<county code="230202" value="龙沙区"/>
+			<county code="230203" value="建华区"/>
+			<county code="230204" value="铁锋区"/>
+			<county code="230205" value="昂昂溪区"/>
+			<county code="230206" value="富拉尔基区"/>
+			<county code="230207" value="碾子山区"/>
+			<county code="230208" value="梅里斯达斡尔族区"/>
+			<county code="230221" value="龙江县"/>
+			<county code="230223" value="依安县"/>
+			<county code="230224" value="泰来县"/>
+			<county code="230225" value="甘南县"/>
+			<county code="230227" value="富裕县"/>
+			<county code="230229" value="克山县"/>
+			<county code="230230" value="克东县"/>
+			<county code="230231" value="拜泉县"/>
+			<county code="230281" value="讷河市"/>
+		</city>
+		<city code="230300" value="鸡西市">
+			<county code="230301" value="市辖区"/>
+			<county code="230302" value="鸡冠区"/>
+			<county code="230303" value="恒山区"/>
+			<county code="230304" value="滴道区"/>
+			<county code="230305" value="梨树区"/>
+			<county code="230306" value="城子河区"/>
+			<county code="230307" value="麻山区"/>
+			<county code="230321" value="鸡东县"/>
+			<county code="230381" value="虎林市"/>
+			<county code="230382" value="密山市"/>
+		</city>
+		<city code="230400" value="鹤岗市">
+			<county code="230401" value="市辖区"/>
+			<county code="230402" value="向阳区"/>
+			<county code="230403" value="工农区"/>
+			<county code="230404" value="南山区"/>
+			<county code="230405" value="兴安区"/>
+			<county code="230406" value="东山区"/>
+			<county code="230407" value="兴山区"/>
+			<county code="230421" value="萝北县"/>
+			<county code="230422" value="绥滨县"/>
+		</city>
+		<city code="230500" value="双鸭山市">
+			<county code="230501" value="市辖区"/>
+			<county code="230502" value="尖山区"/>
+			<county code="230503" value="岭东区"/>
+			<county code="230505" value="四方台区"/>
+			<county code="230506" value="宝山区"/>
+			<county code="230521" value="集贤县"/>
+			<county code="230522" value="友谊县"/>
+			<county code="230523" value="宝清县"/>
+			<county code="230524" value="饶河县"/>
+		</city>
+		<city code="230600" value="大庆市">
+			<county code="230601" value="市辖区"/>
+			<county code="230602" value="萨尔图区"/>
+			<county code="230603" value="龙凤区"/>
+			<county code="230604" value="让胡路区"/>
+			<county code="230605" value="红岗区"/>
+			<county code="230606" value="大同区"/>
+			<county code="230621" value="肇州县"/>
+			<county code="230622" value="肇源县"/>
+			<county code="230623" value="林甸县"/>
+			<county code="230624" value="杜尔伯特蒙古族自治县"/>
+		</city>
+		<city code="230700" value="伊春市">
+			<county code="230701" value="市辖区"/>
+			<county code="230702" value="伊春区"/>
+			<county code="230703" value="南岔区"/>
+			<county code="230704" value="友好区"/>
+			<county code="230705" value="西林区"/>
+			<county code="230706" value="翠峦区"/>
+			<county code="230707" value="新青区"/>
+			<county code="230708" value="美溪区"/>
+			<county code="230709" value="金山屯区"/>
+			<county code="230710" value="五营区"/>
+			<county code="230711" value="乌马河区"/>
+			<county code="230712" value="汤旺河区"/>
+			<county code="230713" value="带岭区"/>
+			<county code="230714" value="乌伊岭区"/>
+			<county code="230715" value="红星区"/>
+			<county code="230716" value="上甘岭区"/>
+			<county code="230722" value="嘉荫县"/>
+			<county code="230781" value="铁力市"/>
+		</city>
+		<city code="230800" value="佳木斯市">
+			<county code="230801" value="市辖区"/>
+			<county code="230803" value="向阳区"/>
+			<county code="230804" value="前进区"/>
+			<county code="230805" value="东风区"/>
+			<county code="230811" value="郊区"/>
+			<county code="230822" value="桦南县"/>
+			<county code="230826" value="桦川县"/>
+			<county code="230828" value="汤原县"/>
+			<county code="230833" value="抚远县"/>
+			<county code="230881" value="同江市"/>
+			<county code="230882" value="富锦市"/>
+		</city>
+		<city code="230900" value="七台河市">
+			<county code="230901" value="市辖区"/>
+			<county code="230902" value="新兴区"/>
+			<county code="230903" value="桃山区"/>
+			<county code="230904" value="茄子河区"/>
+			<county code="230921" value="勃利县"/>
+		</city>
+		<city code="231000" value="牡丹江市">
+			<county code="231001" value="市辖区"/>
+			<county code="231002" value="东安区"/>
+			<county code="231003" value="阳明区"/>
+			<county code="231004" value="爱民区"/>
+			<county code="231005" value="西安区"/>
+			<county code="231024" value="东宁县"/>
+			<county code="231025" value="林口县"/>
+			<county code="231081" value="绥芬河市"/>
+			<county code="231083" value="海林市"/>
+			<county code="231084" value="宁安市"/>
+			<county code="231085" value="穆棱市"/>
+		</city>
+		<city code="231100" value="黑河市">
+			<county code="231101" value="市辖区"/>
+			<county code="231102" value="爱辉区"/>
+			<county code="231121" value="嫩江县"/>
+			<county code="231123" value="逊克县"/>
+			<county code="231124" value="孙吴县"/>
+			<county code="231181" value="北安市"/>
+			<county code="231182" value="五大连池市"/>
+		</city>
+		<city code="231200" value="绥化市">
+			<county code="231201" value="市辖区"/>
+			<county code="231202" value="北林区"/>
+			<county code="231221" value="望奎县"/>
+			<county code="231222" value="兰西县"/>
+			<county code="231223" value="青冈县"/>
+			<county code="231224" value="庆安县"/>
+			<county code="231225" value="明水县"/>
+			<county code="231226" value="绥棱县"/>
+			<county code="231281" value="安达市"/>
+			<county code="231282" value="肇东市"/>
+			<county code="231283" value="海伦市"/>
+		</city>
+		<city code="232700" value="大兴安岭地区">
+			<county code="232701" value="加格达奇区"/>
+			<county code="232702" value="松岭区"/>
+			<county code="232703" value="新林区"/>
+			<county code="232704" value="呼中区"/>
+			<county code="232721" value="呼玛县"/>
+			<county code="232722" value="塔河县"/>
+			<county code="232723" value="漠河县"/>
+		</city>
+	</province>
+	<province code="310000" value="上海市">
+			<city code="310101" value="黄浦区"/>
+			<city code="310103" value="卢湾区"/>
+			<city code="310104" value="徐汇区"/>
+			<city code="310105" value="长宁区"/>
+			<city code="310106" value="静安区"/>
+			<city code="310107" value="普陀区"/>
+			<city code="310108" value="闸北区"/>
+			<city code="310109" value="虹口区"/>
+			<city code="310110" value="杨浦区"/>
+			<city code="310112" value="闵行区"/>
+			<city code="310113" value="宝山区"/>
+			<city code="310114" value="嘉定区"/>
+			<city code="310115" value="浦东新区"/>
+			<city code="310116" value="金山区"/>
+			<city code="310117" value="松江区"/>
+			<city code="310118" value="青浦区"/>
+			<city code="310119" value="南汇区"/>
+			<city code="310120" value="奉贤区"/>
+			<city code="310230" value="崇明县"/>
+	</province>
+</country>

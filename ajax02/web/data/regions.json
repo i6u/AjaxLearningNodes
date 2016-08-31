@@ -1,0 +1,902 @@
+[
+  {
+    "code": "610000",
+    "parent_code": null,
+    "name": "陕西省",
+    "alias": "陕西",
+    "pinyin": "ShaanXi",
+    "abbr": "SX",
+    "zip": "710000",
+    "level": 1
+  },
+  {
+    "code": "610100",
+    "parent_code": "610000",
+    "name": "西安市",
+    "alias": "西安",
+    "pinyin": "XiAn",
+    "abbr": "XA",
+    "zip": "710000",
+    "level": 2
+  },
+  {
+    "code": "610102",
+    "parent_code": "610100",
+    "name": "新城区",
+    "alias": "新城区",
+    "pinyin": "XinChengQu",
+    "abbr": "XCQ",
+    "zip": "710005",
+    "level": 3
+  },
+  {
+    "code": "610103",
+    "parent_code": "610100",
+    "name": "碑林区",
+    "alias": "碑林区",
+    "pinyin": "BeiLinQu",
+    "abbr": "BLQ",
+    "zip": "710001",
+    "level": 3
+  },
+  {
+    "code": "610104",
+    "parent_code": "610100",
+    "name": "莲湖区",
+    "alias": "莲湖区",
+    "pinyin": "LianHuQu",
+    "abbr": "LHQ",
+    "zip": "710003",
+    "level": 3
+  },
+  {
+    "code": "610111",
+    "parent_code": "610100",
+    "name": "灞桥区",
+    "alias": "灞桥区",
+    "pinyin": "BaQiaoQu",
+    "abbr": "BQQ",
+    "zip": "710038",
+    "level": 3
+  },
+  {
+    "code": "610112",
+    "parent_code": "610100",
+    "name": "未央区",
+    "alias": "未央区",
+    "pinyin": "WeiYangQu",
+    "abbr": "WYQ",
+    "zip": "710016",
+    "level": 3
+  },
+  {
+    "code": "610113",
+    "parent_code": "610100",
+    "name": "雁塔区",
+    "alias": "雁塔区",
+    "pinyin": "YanTaQu",
+    "abbr": "YTQ",
+    "zip": "710061",
+    "level": 3
+  },
+  {
+    "code": "610114",
+    "parent_code": "610100",
+    "name": "阎良区",
+    "alias": "阎良区",
+    "pinyin": "YanLiangQu",
+    "abbr": "YLQ",
+    "zip": "710089",
+    "level": 3
+  },
+  {
+    "code": "610115",
+    "parent_code": "610100",
+    "name": "临潼区",
+    "alias": "临潼区",
+    "pinyin": "LinTongQu",
+    "abbr": "LTQ",
+    "zip": "710600",
+    "level": 3
+  },
+  {
+    "code": "610116",
+    "parent_code": "610100",
+    "name": "长安区",
+    "alias": "长安区",
+    "pinyin": "ZhangAnQu",
+    "abbr": "ZAQ",
+    "zip": "710100",
+    "level": 3
+  },
+  {
+    "code": "610122",
+    "parent_code": "610100",
+    "name": "蓝田县",
+    "alias": "蓝田",
+    "pinyin": "LanTian",
+    "abbr": "LT",
+    "zip": "710500",
+    "level": 3
+  },
+  {
+    "code": "610124",
+    "parent_code": "610100",
+    "name": "周至县",
+    "alias": "周至",
+    "pinyin": "ZhouZhi",
+    "abbr": "ZZ",
+    "zip": "710400",
+    "level": 3
+  },
+  {
+    "code": "610125",
+    "parent_code": "610100",
+    "name": "户县",
+    "alias": "户县",
+    "pinyin": "HuXian",
+    "abbr": "HX",
+    "zip": "710300",
+    "level": 3
+  },
+  {
+    "code": "610126",
+    "parent_code": "610100",
+    "name": "高陵县",
+    "alias": "高陵",
+    "pinyin": "GaoLing",
+    "abbr": "GL",
+    "zip": "710200",
+    "level": 3
+  },
+  {
+    "code": "610200",
+    "parent_code": "610000",
+    "name": "铜川市",
+    "alias": "铜川",
+    "pinyin": "TongChuan",
+    "abbr": "TC",
+    "zip": "727000",
+    "level": 2
+  },
+  {
+    "code": "610202",
+    "parent_code": "610200",
+    "name": "王益区",
+    "alias": "王益区",
+    "pinyin": "WangYiQu",
+    "abbr": "WYQ",
+    "zip": "727000",
+    "level": 3
+  },
+  {
+    "code": "610203",
+    "parent_code": "610200",
+    "name": "印台区",
+    "alias": "印台区",
+    "pinyin": "YinTaiQu",
+    "abbr": "YTQ",
+    "zip": "727007",
+    "level": 3
+  },
+  {
+    "code": "610204",
+    "parent_code": "610200",
+    "name": "耀州区",
+    "alias": "耀州区",
+    "pinyin": "YaoZhouQu",
+    "abbr": "YZQ",
+    "zip": "727100",
+    "level": 3
+  },
+  {
+    "code": "610222",
+    "parent_code": "610200",
+    "name": "宜君县",
+    "alias": "宜君",
+    "pinyin": "YiJun",
+    "abbr": "YJ",
+    "zip": "727200",
+    "level": 3
+  },
+  {
+    "code": "610300",
+    "parent_code": "610000",
+    "name": "宝鸡市",
+    "alias": "宝鸡",
+    "pinyin": "BaoJi",
+    "abbr": "BJ",
+    "zip": "721000",
+    "level": 2
+  },
+  {
+    "code": "610302",
+    "parent_code": "610300",
+    "name": "渭滨区",
+    "alias": "渭滨区",
+    "pinyin": "WeiBinQu",
+    "abbr": "WBQ",
+    "zip": "721000",
+    "level": 3
+  },
+  {
+    "code": "610303",
+    "parent_code": "610300",
+    "name": "金台区",
+    "alias": "金台区",
+    "pinyin": "JinTaiQu",
+    "abbr": "JTQ",
+    "zip": "721001",
+    "level": 3
+  },
+  {
+    "code": "610304",
+    "parent_code": "610300",
+    "name": "陈仓区",
+    "alias": "陈仓区",
+    "pinyin": "ChenCangQu",
+    "abbr": "CCQ",
+    "zip": "721300",
+    "level": 3
+  },
+  {
+    "code": "610322",
+    "parent_code": "610300",
+    "name": "凤翔县",
+    "alias": "凤翔",
+    "pinyin": "FengXiang",
+    "abbr": "FX",
+    "zip": "721400",
+    "level": 3
+  },
+  {
+    "code": "610323",
+    "parent_code": "610300",
+    "name": "岐山县",
+    "alias": "岐山",
+    "pinyin": "QiShan",
+    "abbr": "QS",
+    "zip": "722400",
+    "level": 3
+  },
+  {
+    "code": "610324",
+    "parent_code": "610300",
+    "name": "扶风县",
+    "alias": "扶风",
+    "pinyin": "FuFeng",
+    "abbr": "FF",
+    "zip": "722200",
+    "level": 3
+  },
+  {
+    "code": "610326",
+    "parent_code": "610300",
+    "name": "眉县",
+    "alias": "眉县",
+    "pinyin": "MeiXian",
+    "abbr": "MX",
+    "zip": "722300",
+    "level": 3
+  },
+  {
+    "code": "610327",
+    "parent_code": "610300",
+    "name": "陇县",
+    "alias": "陇县",
+    "pinyin": "LongXian",
+    "abbr": "LX",
+    "zip": "721200",
+    "level": 3
+  },
+  {
+    "code": "610328",
+    "parent_code": "610300",
+    "name": "千阳县",
+    "alias": "千阳",
+    "pinyin": "QianYang",
+    "abbr": "QY",
+    "zip": "721100",
+    "level": 3
+  },
+  {
+    "code": "610329",
+    "parent_code": "610300",
+    "name": "麟游县",
+    "alias": "麟游",
+    "pinyin": "LinYou",
+    "abbr": "LY",
+    "zip": "721500",
+    "level": 3
+  },
+  {
+    "code": "610330",
+    "parent_code": "610300",
+    "name": "凤县",
+    "alias": "凤县",
+    "pinyin": "FengXian",
+    "abbr": "FX",
+    "zip": "721700",
+    "level": 3
+  },
+  {
+    "code": "610331",
+    "parent_code": "610300",
+    "name": "太白县",
+    "alias": "太白",
+    "pinyin": "TaiBai",
+    "abbr": "TB",
+    "zip": "721600",
+    "level": 3
+  },
+  {
+    "code": "610400",
+    "parent_code": "610000",
+    "name": "咸阳市",
+    "alias": "咸阳",
+    "pinyin": "XianYang",
+    "abbr": "XY",
+    "zip": "712000",
+    "level": 2
+  },
+  {
+    "code": "610402",
+    "parent_code": "610400",
+    "name": "秦都区",
+    "alias": "秦都区",
+    "pinyin": "QinDouQu",
+    "abbr": "QDQ",
+    "zip": "712000",
+    "level": 3
+  },
+  {
+    "code": "610403",
+    "parent_code": "610400",
+    "name": "杨凌区",
+    "alias": "杨凌区",
+    "pinyin": "YangLingQu",
+    "abbr": "YLQ",
+    "zip": "712100",
+    "level": 3
+  },
+  {
+    "code": "610404",
+    "parent_code": "610400",
+    "name": "渭城区",
+    "alias": "渭城区",
+    "pinyin": "WeiChengQu",
+    "abbr": "WCQ",
+    "zip": "712000",
+    "level": 3
+  },
+  {
+    "code": "610422",
+    "parent_code": "610400",
+    "name": "三原县",
+    "alias": "三原",
+    "pinyin": "SanYuan",
+    "abbr": "SY",
+    "zip": "713800",
+    "level": 3
+  },
+  {
+    "code": "610423",
+    "parent_code": "610400",
+    "name": "泾阳县",
+    "alias": "泾阳",
+    "pinyin": "JingYang",
+    "abbr": "JY",
+    "zip": "713700",
+    "level": 3
+  },
+  {
+    "code": "610424",
+    "parent_code": "610400",
+    "name": "乾县",
+    "alias": "乾县",
+    "pinyin": "GanXian",
+    "abbr": "GX",
+    "zip": "713300",
+    "level": 3
+  },
+  {
+    "code": "610425",
+    "parent_code": "610400",
+    "name": "礼泉县",
+    "alias": "礼泉",
+    "pinyin": "LiQuan",
+    "abbr": "LQ",
+    "zip": "713200",
+    "level": 3
+  },
+  {
+    "code": "610426",
+    "parent_code": "610400",
+    "name": "永寿县",
+    "alias": "永寿",
+    "pinyin": "YongShou",
+    "abbr": "YS",
+    "zip": "713400",
+    "level": 3
+  },
+  {
+    "code": "610427",
+    "parent_code": "610400",
+    "name": "彬县",
+    "alias": "彬县",
+    "pinyin": "BinXian",
+    "abbr": "BX",
+    "zip": "713500",
+    "level": 3
+  },
+  {
+    "code": "610428",
+    "parent_code": "610400",
+    "name": "长武县",
+    "alias": "长武",
+    "pinyin": "ZhangWu",
+    "abbr": "ZW",
+    "zip": "713600",
+    "level": 3
+  },
+  {
+    "code": "610429",
+    "parent_code": "610400",
+    "name": "旬邑县",
+    "alias": "旬邑",
+    "pinyin": "XunYi",
+    "abbr": "XY",
+    "zip": "711300",
+    "level": 3
+  },
+  {
+    "code": "610430",
+    "parent_code": "610400",
+    "name": "淳化县",
+    "alias": "淳化",
+    "pinyin": "ChunHua",
+    "abbr": "CH",
+    "zip": "711200",
+    "level": 3
+  },
+  {
+    "code": "610431",
+    "parent_code": "610400",
+    "name": "武功县",
+    "alias": "武功",
+    "pinyin": "WuGong",
+    "abbr": "WG",
+    "zip": "712200",
+    "level": 3
+  },
+  {
+    "code": "610481",
+    "parent_code": "610400",
+    "name": "兴平市",
+    "alias": "兴平",
+    "pinyin": "XingPing",
+    "abbr": "XP",
+    "zip": "713100",
+    "level": 3
+  },
+  {
+    "code": "610500",
+    "parent_code": "610000",
+    "name": "渭南市",
+    "alias": "渭南",
+    "pinyin": "WeiNan",
+    "abbr": "WN",
+    "zip": "714000",
+    "level": 2
+  },
+  {
+    "code": "610502",
+    "parent_code": "610500",
+    "name": "临渭区",
+    "alias": "临渭区",
+    "pinyin": "LinWeiQu",
+    "abbr": "LWQ",
+    "zip": "714000",
+    "level": 3
+  },
+  {
+    "code": "610521",
+    "parent_code": "610500",
+    "name": "华县",
+    "alias": "华县",
+    "pinyin": "HuaXian",
+    "abbr": "HX",
+    "zip": "714100",
+    "level": 3
+  },
+  {
+    "code": "610522",
+    "parent_code": "610500",
+    "name": "潼关县",
+    "alias": "潼关",
+    "pinyin": "TongGuan",
+    "abbr": "TG",
+    "zip": "714300",
+    "level": 3
+  },
+  {
+    "code": "610523",
+    "parent_code": "610500",
+    "name": "大荔县",
+    "alias": "大荔",
+    "pinyin": "DaLi",
+    "abbr": "DL",
+    "zip": "715100",
+    "level": 3
+  },
+  {
+    "code": "610524",
+    "parent_code": "610500",
+    "name": "合阳县",
+    "alias": "合阳",
+    "pinyin": "HeYang",
+    "abbr": "HY",
+    "zip": "715300",
+    "level": 3
+  },
+  {
+    "code": "610525",
+    "parent_code": "610500",
+    "name": "澄城县",
+    "alias": "澄城",
+    "pinyin": "ChengCheng",
+    "abbr": "CC",
+    "zip": "715200",
+    "level": 3
+  },
+  {
+    "code": "610526",
+    "parent_code": "610500",
+    "name": "蒲城县",
+    "alias": "蒲城",
+    "pinyin": "PuCheng",
+    "abbr": "PC",
+    "zip": "715500",
+    "level": 3
+  },
+  {
+    "code": "610527",
+    "parent_code": "610500",
+    "name": "白水县",
+    "alias": "白水",
+    "pinyin": "BaiShui",
+    "abbr": "BS",
+    "zip": "715600",
+    "level": 3
+  },
+  {
+    "code": "610528",
+    "parent_code": "610500",
+    "name": "富平县",
+    "alias": "富平",
+    "pinyin": "FuPing",
+    "abbr": "FP",
+    "zip": "711700",
+    "level": 3
+  },
+  {
+    "code": "610581",
+    "parent_code": "610500",
+    "name": "韩城市",
+    "alias": "韩城",
+    "pinyin": "HanCheng",
+    "abbr": "HC",
+    "zip": "715400",
+    "level": 3
+  },
+  {
+    "code": "610582",
+    "parent_code": "610500",
+    "name": "华阴市",
+    "alias": "华阴",
+    "pinyin": "HuaYin",
+    "abbr": "HY",
+    "zip": "714200",
+    "level": 3
+  },
+  {
+    "code": "610600",
+    "parent_code": "610000",
+    "name": "延安市",
+    "alias": "延安",
+    "pinyin": "YanAn",
+    "abbr": "YA",
+    "zip": "716000",
+    "level": 2
+  },
+  {
+    "code": "610602",
+    "parent_code": "610600",
+    "name": "宝塔区",
+    "alias": "宝塔区",
+    "pinyin": "BaoTaQu",
+    "abbr": "BTQ",
+    "zip": "716000",
+    "level": 3
+  },
+  {
+    "code": "610621",
+    "parent_code": "610600",
+    "name": "延长县",
+    "alias": "延长",
+    "pinyin": "YanZhang",
+    "abbr": "YZ",
+    "zip": "717100",
+    "level": 3
+  },
+  {
+    "code": "610622",
+    "parent_code": "610600",
+    "name": "延川县",
+    "alias": "延川",
+    "pinyin": "YanChuan",
+    "abbr": "YC",
+    "zip": "717200",
+    "level": 3
+  },
+  {
+    "code": "610623",
+    "parent_code": "610600",
+    "name": "子长县",
+    "alias": "子长",
+    "pinyin": "ZiZhang",
+    "abbr": "ZZ",
+    "zip": "717300",
+    "level": 3
+  },
+  {
+    "code": "610624",
+    "parent_code": "610600",
+    "name": "安塞县",
+    "alias": "安塞",
+    "pinyin": "AnSai",
+    "abbr": "AS",
+    "zip": "717400",
+    "level": 3
+  },
+  {
+    "code": "610625",
+    "parent_code": "610600",
+    "name": "志丹县",
+    "alias": "志丹",
+    "pinyin": "ZhiDan",
+    "abbr": "ZD",
+    "zip": "717500",
+    "level": 3
+  },
+  {
+    "code": "610626",
+    "parent_code": "610600",
+    "name": "吴起县",
+    "alias": "吴起",
+    "pinyin": "WuQi",
+    "abbr": "WQ",
+    "zip": "717600",
+    "level": 3
+  },
+  {
+    "code": "610627",
+    "parent_code": "610600",
+    "name": "甘泉县",
+    "alias": "甘泉",
+    "pinyin": "GanQuan",
+    "abbr": "GQ",
+    "zip": "716100",
+    "level": 3
+  },
+  {
+    "code": "610628",
+    "parent_code": "610600",
+    "name": "富县",
+    "alias": "富县",
+    "pinyin": "FuXian",
+    "abbr": "FX",
+    "zip": "727500",
+    "level": 3
+  },
+  {
+    "code": "610629",
+    "parent_code": "610600",
+    "name": "洛川县",
+    "alias": "洛川",
+    "pinyin": "LuoChuan",
+    "abbr": "LC",
+    "zip": "727400",
+    "level": 3
+  },
+  {
+    "code": "610630",
+    "parent_code": "610600",
+    "name": "宜川县",
+    "alias": "宜川",
+    "pinyin": "YiChuan",
+    "abbr": "YC",
+    "zip": "716200",
+    "level": 3
+  },
+  {
+    "code": "610631",
+    "parent_code": "610600",
+    "name": "黄龙县",
+    "alias": "黄龙",
+    "pinyin": "HuangLong",
+    "abbr": "HL",
+    "zip": "715700",
+    "level": 3
+  },
+  {
+    "code": "610632",
+    "parent_code": "610600",
+    "name": "黄陵县",
+    "alias": "黄陵",
+    "pinyin": "HuangLing",
+    "abbr": "HL",
+    "zip": "727300",
+    "level": 3
+  },
+  {
+    "code": "610700",
+    "parent_code": "610000",
+    "name": "汉中市",
+    "alias": "汉中",
+    "pinyin": "HanZhong",
+    "abbr": "HZ",
+    "zip": "723000",
+    "level": 2
+  },
+  {
+    "code": "610702",
+    "parent_code": "610700",
+    "name": "汉台区",
+    "alias": "汉台区",
+    "pinyin": "HanTaiQu",
+    "abbr": "HTQ",
+    "zip": "723000",
+    "level": 3
+  },
+  {
+    "code": "610721",
+    "parent_code": "610700",
+    "name": "南郑县",
+    "alias": "南郑",
+    "pinyin": "NanZheng",
+    "abbr": "NZ",
+    "zip": "723100",
+    "level": 3
+  },
+  {
+    "code": "610722",
+    "parent_code": "610700",
+    "name": "城固县",
+    "alias": "城固",
+    "pinyin": "ChengGu",
+    "abbr": "CG",
+    "zip": "723200",
+    "level": 3
+  },
+  {
+    "code": "610723",
+    "parent_code": "610700",
+    "name": "洋县",
+    "alias": "洋县",
+    "pinyin": "YangXian",
+    "abbr": "YX",
+    "zip": "723300",
+    "level": 3
+  },
+  {
+    "code": "610724",
+    "parent_code": "610700",
+    "name": "西乡县",
+    "alias": "西乡",
+    "pinyin": "XiXiang",
+    "abbr": "XX",
+    "zip": "723500",
+    "level": 3
+  },
+  {
+    "code": "610725",
+    "parent_code": "610700",
+    "name": "勉县",
+    "alias": "勉县",
+    "pinyin": "MianXian",
+    "abbr": "MX",
+    "zip": "724200",
+    "level": 3
+  },
+  {
+    "code": "610726",
+    "parent_code": "610700",
+    "name": "宁强县",
+    "alias": "宁强",
+    "pinyin": "NingQiang",
+    "abbr": "NQ",
+    "zip": "724400",
+    "level": 3
+  },
+  {
+    "code": "610727",
+    "parent_code": "610700",
+    "name": "略阳县",
+    "alias": "略阳",
+    "pinyin": "EYang",
+    "abbr": "EY",
+    "zip": "724300",
+    "level": 3
+  },
+  {
+    "code": "610728",
+    "parent_code": "610700",
+    "name": "镇巴县",
+    "alias": "镇巴",
+    "pinyin": "ZhenBa",
+    "abbr": "ZB",
+    "zip": "723600",
+    "level": 3
+  },
+  {
+    "code": "610729",
+    "parent_code": "610700",
+    "name": "留坝县",
+    "alias": "留坝",
+    "pinyin": "LiuBa",
+    "abbr": "LB",
+    "zip": "724100",
+    "level": 3
+  },
+  {
+    "code": "610730",
+    "parent_code": "610700",
+    "name": "佛坪县",
+    "alias": "佛坪",
+    "pinyin": "FuPing",
+    "abbr": "FP",
+    "zip": "723400",
+    "level": 3
+  },
+  {
+    "code": "610800",
+    "parent_code": "610000",
+    "name": "榆林市",
+    "alias": "榆林",
+    "pinyin": "YuLin",
+    "abbr": "YL",
+    "zip": "719000",
+    "level": 2
+  },
+  {
+    "code": "610802",
+    "parent_code": "610800",
+    "name": "榆阳区",
+    "alias": "榆阳区",
+    "pinyin": "YuYangQu",
+    "abbr": "YYQ",
+    "zip": "719000",
+    "level": 3
+  },
+  {
+    "code": "610821",
+    "parent_code": "610800",
+    "name": "神木县",
+    "alias": "神木",
+    "pinyin": "ShenMu",
+    "abbr": "SM",
+    "zip": "719300",
+    "level": 3
+  },
+  {
+    "code": "610822",
+    "parent_code": "610800",
+    "name": "府谷县",
+    "alias": "府谷",
+    "pinyin": "FuGu",
+    "abbr": "FG",
+    "zip": "719400",
+    "level": 3
+  }
+]

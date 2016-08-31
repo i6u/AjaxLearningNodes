@@ -1,11 +1,11 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ajax02:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/ajax02_war_exploded</output-path>
+  <artifact type="exploded-war" name="ajax03JQuery:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ajax03JQuery_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="ajax02/web/Web" />
+      <element id="javaee-facet-resources" facet="ajax03JQuery/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="ajax02" />
+          <element id="module-output" name="ajax03JQuery" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="fastJSON" />

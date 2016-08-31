@@ -11,6 +11,7 @@
           <element id="library" level="project" name="xStream" />
           <element id="library" level="module" name="JUnit4" module-name="ajax01" />
           <element id="library" level="project" name="jackson" />
+          <element id="library" level="project" name="fastJSON" />
         </element>
       </element>
     </root>

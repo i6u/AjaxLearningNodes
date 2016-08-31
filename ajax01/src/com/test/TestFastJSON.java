@@ -1,10 +1,9 @@
 package com.test;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.TypeReference;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.com.util.Conversion;
+import com.file.util.Conversion;
 import com.model.bean.Gender;
 import com.model.bean.JSONTest;
 import com.model.bean.Person;
