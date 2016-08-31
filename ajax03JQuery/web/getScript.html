@@ -6,39 +6,10 @@
     <script src="js/jquery-1.8.3.js"></script>
     <script>
         $(function () {
-            /**
-             * load
-             * 默认为get请求
-             * */
-            //load到index.jsp 中ID为di的元素的文本内容
-            $("#di01").load('index.jsp #di');
-            $("#di").load('index.jsp', function (data) {//function加载完成后的回调函数
-//                console.log(data);//data为index.jsp的所有内容
-                var jd = $(data);//会打成一个包装集
-                console.log(jd);
-                jd.each(function (n) {//具体包装集中都有什么内容,除了你能猜到的,还有你猜不到的。。。遍历看看
-                    console.log(n + '--->');
-                    console.log(jd[n]);
-                });
-                console.log(jd.filter("#di").html());//在包装集中找
-                console.log(jd.find(".abc").html());//在包装集中的元素中找
-
-            });
-            /**
-             * load
-             * 当使用第二个参数传值时,转换为post请求,注意传值的方式
-             * 带回调函数的方法效果一样
-             * */
-            $("#di1").load('/requestTest.do',{arg:1});
-            $("#di2").load('/requestTest.do');
 
         })
     </script>
 </head>
 <body>
-<div id="di">a</div>
-<div id="di01">a</div>
-<div id="di1">a</div>
-<div id="di2">a</div>
 </body>
 </html>

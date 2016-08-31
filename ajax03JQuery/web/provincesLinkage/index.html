@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery 省市联动</title>
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            var address;
+            $.get('../data/Area.xml',function (data) {
+                init(data);
+            });
+            
+            function init(data) {
+                $(data).find('province').each(function () {
+                    $('#province').append("<option value='"+ $(this).attr('value') +"'>"+$(this).attr('name')+"</option>");
+                });
+                $('#province').change(function () {
+                    $(data).find("province[value='"+ $(this).val() +"'] city").each(function () {
+                        $('#city').append("<option value='"+ $(this).attr('value') +"'>"+$(this).attr('name')+"</option>");
+                    })
+                });
+                $('#city').change(function () {
+                    $(data).find("city[value='"+ $(this).val() +"'] country").each(function () {
+                        $('#country').append("<option value='"+ $(this).attr('value') +"'>"+$(this).attr('name')+"</option>");
+                    })
+                });
+            }
+        })
+    </script>
+</head>
+<body>
+<select id="province">
+    <option>---请选择省份---</option>
+</select>
+<select id="city">
+    <option>---请选择地市---</option>
+</select>
+<select id="country">
+    <option>---请选择区县---</option>
+</select>
+</body>
+</html>
