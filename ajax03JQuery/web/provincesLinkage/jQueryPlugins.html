@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery plugins</title>
+    <style>
+        span.address_c{
+            margin:5px;
+        }
+    </style>
+    <script src="../js/jquery-1.8.3.js"></script>
+    <script src="../js/plugins/address.js"></script>
+<script>
+    $(function () {
+        $('#address').address({
+            countryChange:function () {
+                $('#test').append($(this).val());
+            }
+        });
+    })
+</script>
+</head>
+<body>
+<div id="address"></div>
+<div id="test"></div>
+</body>
+</html>

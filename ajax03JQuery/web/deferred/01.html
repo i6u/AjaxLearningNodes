@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-1.8.3.js"></script>
+    <script >
+        $(function () {
+            var promise = $.ajax("/xml.do");
+//            promise.done(function (data) {  //done成功之后执行
+//                console.log('success');
+//            }).fail(function (data) {   //fail失败之后执行
+//                console.log('fail');
+//            });
+
+            promise.then(function (data) {  //第一个函数成功之后执行
+                console.log('success');
+                console.log($(data).find('user').length);
+            },function (data) {  //第二个函数成功之后执行
+                console.log('fail');
+            });
+        })
+
+    </script>
+</head>
+<body>
+<div id="myd1"></div>
+</body>
+</html>

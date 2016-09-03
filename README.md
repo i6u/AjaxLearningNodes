@@ -21,6 +21,11 @@
     * jQuery.ajaxSetup
     * 全局事件处理:ajaxComplete()、ajaxError()、ajaxSend()、ajaxStart()、ajaxStop()、ajaxSuccess()
     * 辅助函数serialize、serializeArray、jQuery.param
+    * **JQuery中的Deferred(延时对象)  [阮一峰:jQuery的deferred对象详解](http://www.ruanyifeng.com/blog/2011/08/a_detailed_explanation_of_jquery_deferred_object.html)**
+        - done,fail,then,always
+        - deferred状态
+        - .promise()
+        - 多个ajax绑定一个事件,一个ajax绑定多个事件
 3. fastJSON,jackson,xStream使用
     * [Json解析教程](http://zyjustin9.iteye.com/blog/2020533)
     * [fastJson](http://www.cnblogs.com/zhenmingliu/archive/2011/12/29/2305775.html)
@@ -30,4 +35,8 @@
 4. 扩展
     * 回顾java IO操作(File<-->String)
     * JavaScript中节点的操作
+5. 练习
+    * JS操作XML的省市联动(基于节点/基于XPath)
+    * JQuery操作XML的省市联动(自定义的插件)
+    
     
