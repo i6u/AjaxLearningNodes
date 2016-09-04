@@ -38,5 +38,6 @@
 5. 练习
     * JS操作XML的省市联动(基于节点/基于XPath)
     * JQuery操作XML的省市联动(自定义的插件)
+    * JQuery滚动加载
     
     
