@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>滚动加载</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .userStyle {
+            margin: 5px 10px;
+            padding: 10px 50px;
+            border: 1px double darksalmon;
+        }
+        .userStyle span{
+            font-size: 30px;
+            color: #ff8872;
+        }
+    </style>
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/plugins/jquery.color-2.1.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            loadUser();
+            function loadUser() {
+                $.get('data/users.json', function (data) {
+                    for (var i = 0; i < 8; i++) {
+                        $('#did').append("<div class='userStyle'>" +
+                                "id:" + data[i].id + "<br/>" +
+                                "name:" + data[i]['name'] + "<br/>" +
+                                "birthday:" + data[i]['birthday'] + "<br/>" +
+                                "phone:" + data[i]['phone'] + "<br/>" +
+                                "email:" + data[i]['email'] + "<br/></div>");
+                    }
+                }, 'json');
+            }
+
+            var index = 0;
+
+            $(window).scroll(function () {
+                var a = $(this).height(); //浏览器窗口高度
+                var b = $(document).height();//页面文档内容高度
+                var c = $(this).scrollTop();//滚动条距离(距离this(浏览器窗口window)顶部的距离)
+                var flag = c > b - a -10; //当滚动条到达当前窗口未显示的文档内容之上10像素时
+
+                if(index>3) {
+                    $('#did').append('<div class="userStyle"><span>loading over ...</span></div>')
+                    $(this).off();
+                    $(this).Color('blur','red','green',10);
+                }
+                if(flag) {              //加载
+                    loadUser();
+                    index++;
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<!--<div id="did"></div>-->
+
+<button id="go">Simple</button>
+<button id="sat">Desaturate</button>
+<div id="block">Hello!</div>
+<script>
+    jQuery("#go").click(function(){
+        jQuery("#block").animate({
+            backgroundColor: "#abcdef"
+        }, 1500 );
+    });
+    jQuery("#sat").click(function(){
+        jQuery("#block").animate({
+            backgroundColor: jQuery.Color({ saturation: 0 })
+        }, 1500 );
+    });
+</script>
+</body>
+</html>

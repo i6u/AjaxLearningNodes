@@ -13,6 +13,7 @@
 <script>
     $(function () {
         $('#address').address({
+            url:'../data/Area.xml',
             countryChange:function () {
                 $('#test').append($(this).val());
             }
